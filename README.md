@@ -7,8 +7,12 @@ The purpose of this analysis is to analyze weather data for the island of Oahu, 
 * Deliverable 1: Determine the Summary Temperature Statistics for June
 Using Python, Pandas functions and methods, and SQLAlchemy, I filtered the date column of the Measurements table in the hawaii.sqlite database to retrieve all the temperatures for the month of June. I then converted those temperatures to a list, created a DataFrame from the list, and generated the summary statistics.
 
+<img width="152" alt="JuneTemps" src="https://user-images.githubusercontent.com/114960958/226148626-79b1f639-b878-4309-a523-769139f550a4.png">
+
 * Deliverable 2: Determine the Summary Temperature Statistics for December
 Using Python, Pandas functions and methods, and SQLAlchemy, I filtered the date column of the Measurements table in the hawaii.sqlite database to retrieve all the temperatures for the month of December. I then converted those temperatures to a list, created a DataFrame from the list, and generated the summary statistics.
+
+<img width="174" alt="DecTemps" src="https://user-images.githubusercontent.com/114960958/226148627-1fafed6f-b7bd-40cb-8fed-79eb49d523a0.png">
 
 * Deliverable 3: A written report for the statistical analysis 
 See below report describing the key differences in weather between June and December and summary including two recommendations for further analysis.
