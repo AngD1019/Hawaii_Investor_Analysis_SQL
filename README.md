@@ -1,12 +1,17 @@
 # Surfs Up Challenge
 
-## Overview analysis  
+## Overview of Analysis  
 
-The purpose of this analysis is to analyze weather data for the island of Oahu, Hawaii, so that an investor in your surf and shake shop can have weather data to inform their investment decision. Since this business's success would be impacted by the weather, the investor asked that you analyze the weather data for this area, to help them attempt to predict the success of this business venture. This challenge focused on analyzing the temperature trends in Oahu for June and December, to see if the shop will be successful and a sustainable business year-round.
-Below are the deliverables required for this challenge:
+The purpose of this analysis is to analyze weather data for the island of Oahu, Hawaii, so that an investor in a surf and shake shop can have weather data to inform their investment decision. Since this business's success would be impacted by the weather, the investor requested analysis of weather data for this area, to help them attempt to predict the success of this business venture. This project focused on analyzing the temperature trends in Oahu for June and December, to see if the shop will be successful and a sustainable business year-round. I used Python, Pandas functions and methods, and SQLAlchemy and Flask to complete the below deliverables.
 
 * Deliverable 1: Determine the Summary Temperature Statistics for June
+Using Python, Pandas functions and methods, and SQLAlchemy, I filtered the date column of the Measurements table in the hawaii.sqlite database to retrieve all the temperatures for the month of June. I then converted those temperatures to a list, created a DataFrame from the list, and generated the summary statistics.
+
 * Deliverable 2: Determine the Summary Temperature Statistics for December
+Using Python, Pandas functions and methods, and SQLAlchemy, I filtered the date column of the Measurements table in the hawaii.sqlite database to retrieve all the temperatures for the month of December. I then converted those temperatures to a list, created a DataFrame from the list, and generated the summary statistics.
+
+* Deliverable 3: A written report for the statistical analysis 
+See below report describing the key differences in weather between June and December and summary including two recommendations for further analysis.
 
 ## Results
 Three key differences in weather between June and December temperature data are noted below:
